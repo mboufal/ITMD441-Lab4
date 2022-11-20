@@ -24,7 +24,7 @@ body {
 	);
 }
 
-.weather {
+.weather{
 	display: flex;
 	align-items: center;
 	margin: 15px 0;
