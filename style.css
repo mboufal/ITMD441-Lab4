@@ -23,3 +23,11 @@ body {
     rgba(230, 224, 113, 1) 100%
 	);
 }
+
+.weather {
+	display: flex;
+	align-items: center;
+	margin: 15px 0;
+	font-size: 1.5rem;
+}
+
