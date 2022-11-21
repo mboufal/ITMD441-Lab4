@@ -110,3 +110,18 @@ form .search button:hover{
     margin: 10px;
     font-size: 32px;
 }
+.top-nav li{
+	list-style-type: none;
+	background: rgb(93,138,168);
+	margin: 5px;
+	font-family: "Verdana";
+	padding: 10px 30px;
+    background: linear-gradient(135deg, #2685a2 -50%, #286fe0 180%);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.top-nav li a {
+	text-decoration: none;
+	
+}
