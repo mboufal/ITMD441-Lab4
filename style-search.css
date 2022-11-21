@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #f4f4f4;
+}
+.view{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+	background: rgb(135,206,235);
+}
+h2{
+    padding: 10px;
+    font-size: 32px;
+}
+form .search{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .search input{
+    all: unset;
+    padding: 10px;
+    background-color: #f6f6f6;
+    color: #222222;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+form .search button{
+    all: unset;
+    padding: 10px 30px;
+    background: linear-gradient(135deg, #2685a2 -50%, #286fe0 180%);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+form .search button:hover{
+    transform: scale(1.03);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    visibility: hidden;
+}
+
+.details .img{
+    margin: 10px;
+    background-color: #bbbbbb;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #f4f4f444;
+}
+
+.details .weather{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+.details .weather div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.details .weather div span {
+    margin: 10px;
+    font-size: 32px;
+}
