@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-7days.css">
+    <link rel="stylesheet" href="style-forecast.css">
     
     <title>5 Days Forecast</title>
 </head>
 <body onload="DefaultScreen()">
-    <center>
+    <div class="container">
         <h1 id="Para1">5 Days Weather Forecast</h1>
         <p id="inputContainer">City: <input type="text" id="cityInput"></p>
-        <button type="button" onclick="GetInfo()">Click Me</button>        
+        <button class="button-style" type="button" onclick="GetInfo()">Check the weather</button>        
         <h2 id="cityName">---London---</h2>
-    </center>
+    
     
     <div id = "weatherContainer">
         <div id="iconsContainer">    
@@ -50,9 +50,9 @@
             </div>
         </div>
     </div>
+</div>
 
-
-        <script src="script-7days.js"></script>
+        <script src="script-forecast.js"></script>
 
 
 </body>

@@ -10,29 +10,6 @@
 	font-size:20px;
 	font-weight:bold;
 }
-#weatherContainer{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 300px;
-    width: 1300px;
-    border: 5px solid rgba(97, 95, 95, 0.829);    
-    border-radius: 10px;
-}
-
-#iconsContainer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 240px;
-    width: 1200px;    
-    border: 5px solid rgb(31, 82, 82);    
-    border-radius: 10px;
-}
 
 .icons{
     display: inline-bock;
@@ -40,7 +17,6 @@
     height: 200px;
     width: 190px;
     margin: 20px;
-    border: 5px solid rgb(48, 47, 47);
     border-radius: 10px;
 }
 
@@ -83,4 +59,29 @@
     margin: 0;
     margin-bottom: 5px;
     margin-left: 5px;
+}
+.button-style{
+list-style-type: none;
+	background-color: rgb(255,191,0);
+	margin: 5px;
+	font-family: "Verdana";
+	padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+	background: rgb(251, 242, 133);
+	background: radial-gradient(
+	circle,
+	rgba(251, 242, 133, 0.6334908963585435) 0%,
+    rgba(224, 196, 91, 0.8407738095238095) 35%,
+    rgba(230, 224, 113, 1) 100%
+	);
 }
