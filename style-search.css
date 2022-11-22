@@ -41,7 +41,14 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-	background: rgb(135,206,235);
+		
+	background: rgb(39, 123, 245);
+	background: radial-gradient(
+	circle,
+	rgba(39, 123, 245, 0.32) 0%,
+    rgba(14, 95, 235, 0.8) 35%,
+    rgba(39, 123, 245, 1) 100%
+	);
 }
 h2{
     padding: 10px;
