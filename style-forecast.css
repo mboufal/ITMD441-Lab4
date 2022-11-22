@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#cityInput, #cityName, #inputContainer,button{
+#cityInput, #cityName, #inputContainer{
     margin: 3px;
 	padding:5px;
 	text-align:center;
@@ -61,7 +61,7 @@
     margin-left: 5px;
 }
 .button-style{
-list-style-type: none;
+	list-style-type: none;
 	background-color: rgb(255,191,0);
 	margin: 5px;
 	font-family: "Verdana";
