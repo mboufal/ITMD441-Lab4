@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link href="style-7days.css" rel="stylesheet">
+  <!--Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+<center>
+  <h1 id="Para1">5 days forecast</h1>
+  <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+  <button>Show Forecast</button>
+  <h2 id="cityName">--London--</h2>
+  </center>
+ <div id="weatherContainer">
+   <div id="icons container">
+     <div class="icons">
+	   <p class="weather" id="day1"></p>
+	    <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+          <p class="minValues" id="day1Min">Loading...</p>
+          <p class="maxValues" id="day1Max">Loading...</p>
+	 </div>
+   </div>
+ </div>
+  <!-- script -->
+  <script src="script-7days.js"></script> 
+</body>
+</html>
